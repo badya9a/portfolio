@@ -1,4 +1,9 @@
 const NavBar = () => {
+	const scrollToElement = (elementId: string) => {
+		const container = document.getElementById(elementId)
+		container?.scrollIntoView({ behavior: 'smooth' })
+	}
+
 	return (
 		<nav>
 			<div className='w-full flex justify-between fixed top-0 left-0 p-5'>
@@ -6,9 +11,21 @@ const NavBar = () => {
 					<h3 className='text-black font-bold text-xl'>Bohdan.dev</h3>
 				</div>
 				<div className='flex gap-5 text-lg text-black font-bold'>
-					<a className='cursor-pointer'>Home</a>
-					<a className='cursor-pointer'>About</a>
-					<a className='cursor-pointer'>Projects</a>
+					<a className='cursor-pointer' onClick={() => scrollToElement('info')}>
+						Home
+					</a>
+					<a
+						className='cursor-pointer'
+						onClick={() => scrollToElement('about')}
+					>
+						About
+					</a>
+					<a
+						className='cursor-pointer'
+						onClick={() => scrollToElement('projects')}
+					>
+						Projects
+					</a>
 				</div>
 			</div>
 		</nav>

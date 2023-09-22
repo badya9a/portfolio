@@ -2,7 +2,10 @@ import { BsPinMapFill } from 'react-icons/bs'
 
 const About = () => {
 	return (
-		<section className='flex items-center justify-center gap-16 w-full h-[100vh]'>
+		<section
+			className='flex items-center justify-center gap-16 w-full h-[100vh]'
+			id='about'
+		>
 			<div>
 				<img
 					src='/images/about-img.jpg'

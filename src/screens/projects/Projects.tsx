@@ -2,7 +2,7 @@ import { BsBoxArrowUpRight, BsGithub } from 'react-icons/bs'
 
 const Projects = () => {
 	return (
-		<section className='w-full flex flex-col'>
+		<section className='w-full flex flex-col' id='projects'>
 			<div className='flex flex-col items-center'>
 				<h3 className='text-blue-700 font-bold text-xl'>Portfolio</h3>
 				<p className='text-black font-bold text-2xl'>

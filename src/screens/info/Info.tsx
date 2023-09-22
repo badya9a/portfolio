@@ -2,7 +2,10 @@ import { BsLinkedin, BsGithub, BsPinMapFill } from 'react-icons/bs'
 
 const Info = () => {
 	return (
-		<section className='w-full h-[100vh] flex flex-col items-center justify-center'>
+		<section
+			className='w-full h-[100vh] flex flex-col items-center justify-center'
+			id='info'
+		>
 			<article className='flex mb-24'>
 				<div className='w-full flex flex-col gap-5'>
 					<div>
