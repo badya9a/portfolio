@@ -50,12 +50,6 @@ const Projects = () => {
 					</div>
 				</div>
 				<div className='flex justify-center gap-10'>
-					<div>
-						<img
-							src='/images/carrental-project.png'
-							className='w-[500px] h-[300px] rounded-xl'
-						/>
-					</div>
 					<div className='flex flex-col items-center justify-center w-[400px]'>
 						<h4 className='font-bold mb-4 text-lg uppercase'>Car Rental</h4>
 						<p className='text-gray-500 text-center'>
@@ -86,6 +80,12 @@ const Projects = () => {
 								<BsBoxArrowUpRight size={25} />
 							</a>
 						</div>
+					</div>
+					<div>
+						<img
+							src='/images/carrental-project.png'
+							className='w-[500px] h-[300px] rounded-xl'
+						/>
 					</div>
 				</div>
 				<div className='flex justify-center gap-10'>
