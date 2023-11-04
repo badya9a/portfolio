@@ -73,7 +73,7 @@ const Projects = () => {
 							</a>
 							<a
 								target='_blank'
-								href='https://carrental-1qhtqfdds-badya9a.vercel.app/'
+								href='https://carrental-ftz9me0ya-badya9a.vercel.app/'
 								className='cursor-pointer flex gap-1 items-center'
 							>
 								<p>Live Demo</p>
@@ -86,43 +86,6 @@ const Projects = () => {
 							src='/images/carrental-project.png'
 							className='w-[500px] h-[300px] rounded-xl'
 						/>
-					</div>
-				</div>
-				<div className='flex justify-center gap-10'>
-					<div className='w-[500px] flex justify-center'>
-						<img
-							src='/images/gym-project.png'
-							className='w-[200px] rounded-xl'
-						/>
-					</div>
-					<div className='flex flex-col items-center justify-center w-[400px]'>
-						<h4 className='font-bold mb-4 text-lg uppercase'>Gym App</h4>
-						<p className='text-gray-500 text-center'>
-							Gym application allows users to create their own exercises, create
-							workouts and log sets
-						</p>
-						<div className='flex flex-wrap gap-4 my-6 '>
-							<span className='font-bold'>React</span>
-							<span className='font-bold'>SCSS</span>
-						</div>
-						<div className='flex gap-8'>
-							<a
-								target='_blank'
-								href='https://github.com/badya9a/gymapp'
-								className='cursor-pointer flex gap-1 items-center'
-							>
-								<p>Code</p>
-								<BsGithub size={25} />
-							</a>
-							<a
-								target='_blank'
-								href='https://main--ephemeral-youtiao-2f9dd2.netlify.app/'
-								className='cursor-pointer flex gap-1 items-center'
-							>
-								<p>Live Demo</p>
-								<BsBoxArrowUpRight size={25} />
-							</a>
-						</div>
 					</div>
 				</div>
 			</div>
