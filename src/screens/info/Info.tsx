@@ -33,9 +33,10 @@ const Info = () => {
 				<div
 					className='h-[200px] w-[300px]'
 					style={{
-						backgroundImage: `url(/images/photo.jpg)`,
-						backgroundPosition: 'center',
-						backgroundSize: 'cover',
+						backgroundImage: `url(/images/photo.jpeg)`,
+						backgroundPositionY: 'top',
+						backgroundPositionX: 'center',
+						backgroundSize: '500px',
 						borderRadius: '50%',
 					}}
 				></div>
