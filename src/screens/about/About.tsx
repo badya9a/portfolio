@@ -15,7 +15,7 @@ const About = () => {
 			<div className='w-[400px] flex flex-col gap-3'>
 				<span className='uppercase text-blue-700 font-bold'>about me</span>
 				<h3 className='relative text-xl font-bold'>
-					A dedicated Front-end Developer based in Kamianske, Ukraine{' '}
+					A dedicated Front-end Developer based in Ivano-Frankivsk, Ukraine{' '}
 					<span className='absolute left-[49%] bottom-2'>
 						<BsPinMapFill size={20} />
 					</span>
