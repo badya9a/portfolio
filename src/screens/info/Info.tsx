@@ -13,7 +13,7 @@ const Info = () => {
 					</div>
 					<p className='text-gray-500 text-lg relative w-[400px]'>
 						Hi, I'm Bohdan Kozikov. A passionate Front-end React Developer based
-						in Kamianske, Ukraine.
+						in Ivano-Frankivsk, Ukraine.
 						<span className='absolute bottom-1.5'>
 							<BsPinMapFill size={20} />
 						</span>

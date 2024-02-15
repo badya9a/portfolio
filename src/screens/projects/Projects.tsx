@@ -73,7 +73,7 @@ const Projects = () => {
 							</a>
 							<a
 								target='_blank'
-								href='carrental-psi.vercel.app'
+								href='carrental-qovav170w-badya9a.vercel.app'
 								className='cursor-pointer flex gap-1 items-center'
 							>
 								<p>Live Demo</p>
